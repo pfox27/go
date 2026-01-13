@@ -1,4 +1,4 @@
-/* A program to output a winning message to the screen, using variable substitution. */
+/* A program to add two integers and output the result. */
 
 package main
 
@@ -7,8 +7,7 @@ import "fmt"
 var(
 	integer1 = 5
 	integer2 = -3
-	integer3 = -8
-	integer4 = 6
+	
 		)
 		
 func main() {

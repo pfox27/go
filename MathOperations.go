@@ -1,4 +1,4 @@
-/* A program to output a winning message to the screen, using variable substitution. */
+/* A program to perform mathematical operations and provide output of the results. */
 
 package main
 
