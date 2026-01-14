@@ -12,15 +12,17 @@ func main(){
 	var groceryList = [3]string{"bananas", "eggs", "hummus"}
 	fmt.Printf("Original List: %s\n" , groceryList)
 	changeList(groceryList)
+	fmt.Printf("New Grocery List: %v\n", groceryList)
 	
 				}
-		}
-}
+
 
 
 func changeList(arr [3] string){
 	
 	//Change an item in the list
 	
-	arr[3] = "queso dip"
-	
+	arr[2] = "queso dip"
+	fmt.Printf("changeList Function List: %v\n", arr)
+}
+
