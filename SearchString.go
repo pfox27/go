@@ -13,8 +13,9 @@ func main(){
 	numAtoI, numJtoR, numStoZ, numSpaces, numOther := 0, 0, 0, 0, 0
 	sentence := os.Args[1] 
 	
-	for i:= 1; i < len(sentence); i++{
+	for i:= 0; i < len(sentence); i++{
 		letter := string(sentence[i])
+		fmt.Print(" ", string(sentence[i]), " ", sentence[i])
 		
 		switch letter{
 			case "a", "b", "c", "d", "e", "f", "g", "h", "i":
