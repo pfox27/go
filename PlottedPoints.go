@@ -1,5 +1,4 @@
-/* A programme that uses an array to store the coordinates of the set of points plotted 
- * in a mathematical relation. */
+/* A programme that uses a 2D array to store the coordinates of the points in a mathematical relation */
 
 package main
 
@@ -9,12 +8,7 @@ import(
 
 func main(){
 	
-	var plottedPoints = [5][2]int{{-2,5}, {1,8}, {8,15}, {-5,1}, {-9,-5}}
-		for i := 0; i < 5; i++ {
-			for j := 0; j < 2; j++ {
-				fmt.Printf("plottedPoint[%d][%d] is %d\n" , i, j, plottedPoints[i][j])
-				}
-		}
+	PlottedPoints := [5][2]float64{{34.5, 56.1}, {79.4, 92.9}, {98.8, 61.3}, {34.7, 22.8}, {39.4, 67.1}}
+	fmt.Printf("The plotted points are: %0.1f\n", PlottedPoints)
 }
-
 
